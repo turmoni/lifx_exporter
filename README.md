@@ -8,8 +8,8 @@ appearing on the network.
 
 ## Requirements
 
-`python` >= 3.4, `[aiolifx](https://github.com/frawau/aiolifx)`,
-`[prometheus client_python](https://github.com/prometheus/client_python)`,
+`python` >= 3.4, [`aiolifx`](https://github.com/frawau/aiolifx),
+[`prometheus client_python`](https://github.com/prometheus/client_python),
 some LIFX bulbs that are discoverable.
 
 This has only been tested on Linux, but I don't see why it wouldn't work
