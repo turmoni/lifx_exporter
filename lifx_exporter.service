@@ -1,0 +1,10 @@
+[Unit]
+Description=Prometheus exporter for LIFX bulbs
+
+[Service]
+WorkingDirectory=/usr/local/bin/
+ExecStart=/usr/local/bin/lifx_exporter.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target
