@@ -20,6 +20,14 @@ elsewhere.
 Run the script, optionally with a --port option (default is 8564). A unit file
 is provided for your convenience if you use systemd.
 
+## Dashboard
+
+A Grafana dashboard is provided as `bulb_grafana_dashboard.json`. It looks a bit like this:
+
+![Grafana dashboard for bulbs](https://raw.githubusercontent.com/turmoni/lifx_exporter/master/dashboard_screenshot.png)
+
+Very useful, I'm sure you'll agree.
+
 ## Metrics
 All metrics have the following labels:
 - **name**: The label (LIFX terminology) applied to the bulb
